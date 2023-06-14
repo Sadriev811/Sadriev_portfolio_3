@@ -1,0 +1,143 @@
+@media(max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+    .first_text h2 {
+        font-size: 45px;
+    }
+    .first_text h1 {
+        font-size: 105px;
+    }
+    .first_text p {
+        font-size: 18px;
+    }
+    .first_text a {
+        font-size: 18px;
+    }
+    .becouse {
+        grid-template-columns: repeat(2, 350px);
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .second_title h2 {
+        font-size: 33px;
+    }
+
+    .second {
+        padding-top: 30px;
+    }
+    .menu {
+        grid-template-columns: repeat(2, 350px);
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        
+    }
+    .present_text p {
+        font-size: 14px;
+        max-width: 800px;
+        margin: 0 auto;
+        
+    
+    }
+    .logo {
+        padding-right: 140px;
+    }
+    .third_text h2 {
+        font-size: 70px;
+    }
+
+}
+@media(max-width: 992px) {
+    .logo {
+        padding-right: 30px;
+    }
+    .navbar {
+        padding-right: 50px;
+    }
+    .present_text p {
+        line-height: 24px;
+    }
+}
+@media(max-width: 768px) {
+    .language {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar {
+        padding-left: 90px;
+    }
+    .first_text h1 {
+        font-size: 90px;
+    }
+    .first_text h2 {
+        font-size: 43px;
+    }
+    .first_text p {
+        font-size: 16px;
+    }
+    .becouse {
+        grid-template-columns: repeat(1, 350px);
+    }
+    .third_text h2 {
+        font-size: 60px;
+    }
+    .menu {
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+@media(max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+    .first_text h1 {
+        font-size: 60px;
+    }
+    .first_text h2 {
+        font-size: 26px;
+    }
+    .first_text h3 {
+        font-size: 30px;
+    }
+    .first_text p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .first_text a {
+        font-size: 15px;
+        
+    }
+    .first_text a:hover {
+        font-size: 17px;
+        
+    }
+    .second_title h2 {
+        font-size: 22px;
+    }
+    .becouse h3 {
+        font-size: 18px;
+    }
+    .item p {
+        font-size: 14px;
+    }
+    .third_text h2 {
+        font-size: 30px;
+    }
+    .present_text h2 {
+        font-size: 20px;
+    }
+    .present_text p {
+        font-size: 14px;
+    }
+    span {
+        display: flex;
+        
+    }
+    .span {
+        margin: 0 auto;
+    }
+}
